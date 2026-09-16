@@ -1,0 +1,20 @@
+{
+  "name": "vestra-listening-brief",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "summarize": "node scripts/summarize.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@fal-ai/client": "1.10.1",
+    "@mozilla/readability": "0.6.0",
+    "jsdom": "26.1.0",
+    "mammoth": "1.12.3",
+    "pdfjs-dist": "5.4.149"
+  }
+}
